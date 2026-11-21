@@ -23,15 +23,12 @@ theme = "mainroad"
   title = "Let's Tango"
   subtitle = "AI-driven development consulting"
 
+# No sidebar: content uses the full page width.
+# To bring it back, set these to "right" and list widgets, e.g. widgets = ["recent", "categories"].
 [params.sidebar]
-  home = "right"
-  list = "right"
-  single = "right"
-  # Recent posts and categories stay hidden until there are posts.
-  widgets = ["search", "recent", "categories"]
-
-[params.widgets]
-  recent_num = 5
+  home = false
+  list = false
+  single = false
 
 [menu]
   [[menu.main]]
