@@ -8,7 +8,7 @@ theme = "mainroad"
   pagerSize = 10
 
 [params]
-  description = "Let's Tango is a consultant company, focused on getting organizations to continuous delivery and thriving businesses."
+  description = "Let's Tango helps companies adopt AI-driven development, and builds Stride, a kanban board shared by people and AI agents."
   copyright = "Let's Tango"
   highlightColor = "#7CC36A" # Logo green
   mainSections = ["posts"]   # Blog posts go in content/posts/
@@ -21,7 +21,7 @@ theme = "mainroad"
 [params.logo]
   image = "img/logo-mark.png"
   title = "Let's Tango"
-  subtitle = "Continuous delivery consulting"
+  subtitle = "AI-driven development consulting"
 
 [params.sidebar]
   home = "right"
