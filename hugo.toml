@@ -8,7 +8,7 @@ theme = "mainroad"
   pagerSize = 10
 
 [params]
-  description = "Let's Tango helps companies adopt AI-driven development, and builds Stride, a kanban board shared by people and AI agents."
+  description = "Let's Tango helps companies adopt agentic development, and builds Stride, a kanban board shared by people and AI agents."
   copyright = "Let's Tango"
   highlightColor = "#7CC36A" # Logo green
   mainSections = ["posts"]   # Blog posts go in content/posts/
@@ -21,7 +21,7 @@ theme = "mainroad"
 [params.logo]
   image = "img/logo-mark.png"
   title = "Let's Tango"
-  subtitle = "AI-driven development consulting"
+  subtitle = "Agentic development consulting"
 
 # No sidebar: content uses the full page width.
 # To bring it back, set these to "right" and list widgets, e.g. widgets = ["recent", "categories"].

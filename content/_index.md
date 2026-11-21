@@ -2,7 +2,7 @@
 title: "Let's Tango"
 ---
 
-## Helping teams adopt AI-driven development
+## Helping teams adopt agentic development
 
 Let's Tango works with companies to bring AI into how they build software. We help teams move from experimenting with AI coding tools to a dependable way of working, where people plan and review and AI agents do more of the building.
 
