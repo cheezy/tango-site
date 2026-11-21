@@ -1,0 +1,52 @@
+# TODO: set to the real domain once it is pointed at Cloudflare.
+baseURL = "https://www.tango.ca/"
+locale = "en-us"
+title = "Let's Tango"
+theme = "mainroad"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Let's Tango is a consultant company, focused on getting organizations to continuous delivery and thriving businesses."
+  copyright = "Let's Tango"
+  highlightColor = "#7CC36A" # Logo green
+  mainSections = ["posts"]   # Blog posts go in content/posts/
+  post_meta = ["date", "categories"]
+  readmore = false
+  authorbox = false
+  pager = true
+  opengraph = true
+
+[params.logo]
+  image = "img/logo-mark.png"
+  title = "Let's Tango"
+  subtitle = "Continuous delivery consulting"
+
+[params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  # Recent posts and categories stay hidden until there are posts.
+  widgets = ["search", "recent", "categories"]
+
+[params.widgets]
+  recent_num = 5
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
