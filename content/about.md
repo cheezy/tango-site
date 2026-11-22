@@ -19,11 +19,11 @@ AI agents are only as good as the system around them. Automated tests, fast pipe
 
 ### Ardita Karaj, CEO and President
 
-_Placeholder: photo (`static/img/team/ardita-karaj.jpg`)._
-
+{{< team-member photo="/img/team/ardita-karaj.jpg" name="Ardita Karaj" >}}
 Ardita is an agile coach, trainer, change agent and consultant with more than 20 years of software development experience in commercial and public organizations. Working with both leadership and development teams, Ardita applies agile and lean techniques to find and remove the barriers that slow product delivery, and focuses on lasting change: building teams with a culture of continuous improvement.
 
 Ardita has spoken at agile conferences and been interviewed about [helping product owners and teams see the value](https://www.infoq.com/interviews/ardita-karaj-helping-product-owners-teams-see-value-agile-2014/) in their work.
+{{< /team-member >}}
 
 ### Jeff "Cheezy" Morgan, CTO
 
