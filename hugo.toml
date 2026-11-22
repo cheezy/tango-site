@@ -17,6 +17,7 @@ theme = "mainroad"
   authorbox = false
   pager = true
   opengraph = true
+  customCSS = ["css/custom.css"]
 
 [params.logo]
   image = "img/logo-mark.png"

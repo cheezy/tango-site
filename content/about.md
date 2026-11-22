@@ -17,11 +17,21 @@ AI agents are only as good as the system around them. Automated tests, fast pipe
 
 ## Our team
 
-_Placeholder: add a photo and a short bio for each person. Put photos in `static/img/team/` and show each one with `![Name](/img/team/name.jpg)`._
+### Ardita Karaj, CEO and President
 
-### _Placeholder: Name_
+_Placeholder: photo (`static/img/team/ardita-karaj.jpg`)._
 
-_Placeholder: role, background, and a sentence or two on what this person brings to clients. Add links to a blog, LinkedIn, talks or books._
+Ardita is an agile coach, trainer, change agent and consultant with more than 20 years of software development experience in commercial and public organizations. Working with both leadership and development teams, Ardita applies agile and lean techniques to find and remove the barriers that slow product delivery, and focuses on lasting change: building teams with a culture of continuous improvement.
+
+Ardita has spoken at agile conferences and been interviewed about [helping product owners and teams see the value](https://www.infoq.com/interviews/ardita-karaj-helping-product-owners-teams-see-value-agile-2014/) in their work.
+
+### Jeff "Cheezy" Morgan, CTO
+
+{{< team-member photo="/img/team/jeff-morgan.jpg" name="Jeff \"Cheezy\" Morgan" >}}
+Cheezy has been teaching classes and coaching teams on agile and lean techniques since 2004, with a focus on the engineering practices developers and testers use every day. That work led to wide recognition for helping organizations adopt continuous delivery, and now to agentic development. Cheezy builds [Stride](/stride/), and writes about building software with AI agents at [cheezyworld.ca](https://cheezyworld.ca/).
+
+Cheezy was previously CTO and co-founder of LeanDog, has written several open source Ruby tools for testers, and is the author of the book _Cucumber & Cheese: A Testers Workshop_.
+{{< /team-member >}}
 
 ## How we think
 

@@ -1,0 +1,15 @@
+{{- /*
+  Team member with an optional round photo beside the bio.
+  Usage:
+    {{< team-member photo="/img/team/name.jpg" name="Full Name" >}}
+    Bio in **markdown**.
+    {{< /team-member >}}
+*/ -}}
+<div class="team-member">
+	{{- with .Get "photo" }}
+	<img class="team-member__photo" src="{{ . | relURL }}" alt="{{ $.Get "name" }}" width="150" height="150" loading="lazy">
+	{{- end }}
+	<div class="team-member__bio">
+		{{ .Inner | .Page.RenderString (dict "display" "block") }}
+	</div>
+</div>

@@ -1,0 +1,33 @@
+/* Site-specific styles layered on top of the Mainroad theme. */
+
+/* Team member: round photo beside the bio, stacked on narrow screens. */
+.team-member {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.team-member__photo {
+	flex: 0 0 150px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.team-member__bio {
+	flex: 1;
+	min-width: 0;
+}
+
+.team-member__bio > :first-child {
+	margin-top: 0;
+}
+
+@media (max-width: 600px) {
+	.team-member {
+		flex-direction: column;
+		gap: 12px;
+	}
+}
