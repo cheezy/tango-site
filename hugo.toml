@@ -1,5 +1,5 @@
 # TODO: set to the real domain once it is pointed at Cloudflare.
-baseURL = "https://www.tango.ca/"
+baseURL = "https://www.letstango.ca/"
 locale = "en-us"
 title = "Let's Tango"
 theme = "mainroad"
